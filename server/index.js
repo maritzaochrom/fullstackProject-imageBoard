@@ -19,7 +19,7 @@ app.use(cors());
 //ADD ROUTES
 app.use("/posts", postsRouter);
 
-const CONNECTION_URL = 'mongodb+srv://fullstack-project:123test@cluster0.kwrlt.mongodb.net/fullstackDB?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://DB-NAME:PASSWORD@cluster0.kwrlt.mongodb.net/NOMBRE-COLECCION?retryWrites=true&w=majority'
 
 const PORT = process.env.PORT || 5000;
 
